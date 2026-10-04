@@ -33,13 +33,14 @@ x-category: "Sports & Fitness"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Sports And Fitness
   - Public APIs
+  - Sports
+  - Sports Data
+  - Soccer
 apis:
   - name: Football-Data
     description: "Football data with matches info, players, teams, and competitions"
     humanURL: https://www.football-data.org
-    baseURL: https://www.football-data.org
     tags:
       - Sports And Fitness
     properties:
@@ -57,3 +58,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Sports And Fitness
